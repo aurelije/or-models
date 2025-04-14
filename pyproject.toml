@@ -3,7 +3,6 @@ package-mode = false
 name = "or-models"
 version = "0.1.0"
 description = ""
-authors = ["Zlatan Kadragic <zlatan.kadragic@zooplus.com>"]
 
 [tool.poetry.dependencies]
 python = "3.12.6"
