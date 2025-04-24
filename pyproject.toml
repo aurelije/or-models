@@ -6,7 +6,7 @@ description = ""
 
 [tool.poetry.dependencies]
 python = "3.12.6"
-linopy = "^0.5.2"
+linopy = "^0.5.3"
 highspy = "^1.10.0"
 pyarrow = "^19"
 jupyter = "^1.1.1"
