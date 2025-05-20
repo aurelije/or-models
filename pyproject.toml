@@ -6,9 +6,9 @@ description = ""
 
 [tool.poetry.dependencies]
 python = "3.12.6"
-linopy = "^0.5.3"
+linopy = "^0.5.5"
 highspy = "^1.10.0"
-pyarrow = "^19"
+pyarrow = "^20.0.0"
 jupyter = "^1.1.1"
 flox = "^0.10.3"
 pint-xarray = "0.4"
