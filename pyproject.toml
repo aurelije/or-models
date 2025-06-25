@@ -1,20 +1,10 @@
-[tool.poetry]
-package-mode = false
+[project]
 name = "or-models"
 version = "0.1.0"
-description = ""
-
-[tool.poetry.dependencies]
-python = "3.12.6"
-linopy = "^0.5.5"
-highspy = "^1.10.0"
-pyarrow = "^20.0.0"
-jupyter = "^1.1.1"
-flox = "^0.10.3"
-pint-xarray = "0.4"
-numbagg = "^0.9"
-sparse = "^0.16"
-plotly-express = "0.4.1"
-pyoframe = { extras = ["highs"], version = "^0.1.4" }
-rustpy-xlsxwriter = "^0.0.7"
-llvmlite="0.44.0"
+description = "Playground for OR models and bleeding edge modeling tools"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "pyoframe[highs]>=0.2.0",
+]
